@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map with OpenLayers</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> OpenLayers Wastukencana</h2>
+    <div id="map" class="map"></div>
+    <div id="info-table">
+        <div class="point-table">
+                <h2>
+                    Nama    : Ryaas Ishlah Ramadhan
+                    NPM     : 1214076
+                    Kelas   : 2A
+                    
+                </h2>
+            <h1>Data Poin</h1>
+            <table id="pointTable" border="1">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Koordinat</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
+        <div class="polygon-table">
+            <h1>Data Polygon iyas</h1>
+            <table id="polygonTable" border="1">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Koordinat</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        
+        <div class="polyline-table">
+            <h1>Data Polyline yas</h1>
+            <table id="polylineTable" border="1">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Koordinat</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
